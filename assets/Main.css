@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --NavBlue: #141c27;
+    --DarkBlue: #0a101a;
+    --yellow: gold;
+    --White: whitesmoke;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 { font-size: 3em;}
+h2 { font-size: 2.5em; }
+h3 { font-size: 1.5em; }
+p { font-size: 1.15em; }
+
+
+/*---------*/
+/*   Nav   */
+/*---------*/
+nav {
+    position: relative;
+    background-color: var(--NavBlue);
+    padding: 0px 40px;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--White);
+}
+ nav h1 {
+    font-size: 2em;
+ }
+ nav span {
+    color: var(--yellow)
+ }
+
+    .Menu ul {
+        list-style-type: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        
+        display: flex;
+        align-content: flex-end;
+        gap: 30px;
+        margin-right: 150px;
+    }
+
+
+
+/*--------*/
+/*  Hero  */
+/*--------*/
+.Hero {
+    position: relative;
+    height: 90vh;
+    background-color: var(--DarkBlue);
+
+    display: flex;
+    flex-direction: row;
+    color: var(--White);
+}
+
+    .H-Left {
+        position: relative;
+        height: 100%;
+        width: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .HL-Content {
+            padding: 100px;
+        }
+        .HL-Content p {
+            font-size: 1.2em;
+            color: rgba(255,255,255);
+        }
+        
+
+        .Animated-Text {
+            margin-bottom: 20px;
+        }
+            .Animated-Text span {
+                color: gold;
+            }
+            .Animated-Text h2 {
+                color: aquamarine;
+            }
+
+
+        .HL-Btns {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            gap: 20px;
+            align-items: center;
+        }
+            .Btn {
+                padding: 10px;
+                border-radius: 0px;
+                background-color: #55e6a5;
+                color: var(--DarkBlue);
+                font-weight: bold;
+            }
+
+
+
+    .H-Right {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        background-color: var(--DarkBlue);
+    }
+
+        .H-Right img {
+            max-height: 550px;
+        }
+
+
+
+
