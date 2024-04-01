@@ -10,7 +10,6 @@
 </head>
 <body>
     
-
     <!-- NavBar -->
     <nav>
         <div>
@@ -29,22 +28,23 @@
     <!-- END NavBar -->
 
 
+
     <!-- HERO -->
     <section class="Hero">
 
         <div class="H-Left">
             <div class="HL-Content">
                 <div class="Animated-Text">
-                    <h1> Hi I'm <span>Habby</span> </h1>
-                    <h2> Designer </h2>
-                </div>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Ad tempore, assumenda harum praesentium voluptate exercitationem 
-                    earum nesciunt temporibus. </p>
+                    <h1> Hi I'm <span>Matthew Habecker</span> </h1>
+                    <h2> VP Marketing </h2>
+                </div> 
+
+                <p> Growth-focused professional with 15+ years of experience in supervising the 
+                    development and implementation of performance and growth marketing strategies. </p>
 
                 <div class="HL-Btns">
-                    <div class="Btn"> <p>Download CV</p> </div>
-                    <h3> Watch Video </h3>
+                    <div class="Btn"> <p> Download Resume </p> </div>
+                    <h3> View Linkedin </h3>
                 </div>
 
             </div>
@@ -59,6 +59,49 @@
     <!-- END Hero -->
 
 
+
+    <!-- SubMenu -->
+    <section>
+        <div class="SubMenu">
+            <ul>
+                <li> Experience </li>
+                <li> Skill </li>
+                <li> Testimonials </li>
+                <li> Contact </li>
+            </ul>
+        </div>
+    </section>
+    <!-- END SubMenu -->
+
+
+
+    <!-- Experience -->
+    <section class="Experience">
+        <div class="Exp-L">
+            <div class="Exp-L-Content">
+                <h1> Experience </h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, 
+                    id itaque! Minima laboriosam debitis </p>
+                <button> View Resume > </button>
+            </div>
+        </div>
+        <div class="Exp-R">
+            <div class="img-grid">
+                <img src="assets/imgs/Avatar.png" alt="">
+                <img src="assets/imgs/Avatar.png" alt="">
+                <img src="assets/imgs/Avatar.png" alt="">
+
+                <img src="assets/imgs/Avatar.png" alt="">
+                <img src="assets/imgs/Avatar.png" alt="">
+                <img src="assets/imgs/Avatar.png" alt="">
+
+                <img src="assets/imgs/Avatar.png" alt="">
+                <img src="assets/imgs/Avatar.png" alt="">
+                <img src="assets/imgs/Avatar.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- END Experience -->
 
 
 </body>

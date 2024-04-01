@@ -111,8 +111,11 @@ nav {
                 padding: 10px;
                 border-radius: 0px;
                 background-color: #55e6a5;
-                color: var(--DarkBlue);
+                border-radius: 1px;
                 font-weight: bold;
+            }
+            .Btn p {
+                color: var(--DarkBlue);
             }
 
 
@@ -126,9 +129,75 @@ nav {
     }
 
         .H-Right img {
-            max-height: 550px;
+            max-height: 500px;
         }
 
 
 
 
+    /*---------*/
+    /* SubMenu */
+    .SubMenu {
+        height: 8vh;
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .SubMenu ul {
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+        }
+        .SubMenu ul li {
+            background-color: lightgray;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+
+
+
+
+
+
+    /*------------*/
+    /* Experience */
+    .Experience {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        background-color: var(--White);
+
+        gap: 20px;
+        padding: 0px 50px;
+    }
+    .Exp-L {
+        position: relative;
+        width: 50%;
+    }
+        .Exp-L-Content {
+            width: 500px;
+        }
+        .Exp-L button {
+            padding: 10px;
+            background-color: blue;
+            color: white;
+        }
+
+    
+        
+    .Exp-R {
+        position: relative;
+        width: 40%;
+    }
+        .img-grid {
+            width: 369px;
+            background-color: red;
+        }
+        .img-grid img {
+            max-width: 120px;
+        }
